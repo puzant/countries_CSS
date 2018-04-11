@@ -1,10 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
-
-* {
-    background-color: #fffff;
-    position: relative;
-  }
-
 h3 {
   text-decoration: underline;
 }
@@ -43,8 +37,10 @@ nav #header-image {
     font-size: 25px;
   }
 }
-
-
+* {
+  background-color: #fffff;
+  position: relative;
+}
 
 *::selection {
   background: #ffb7b7;
@@ -176,4 +172,13 @@ footer {
 }
 footer .fa-heart {
   color: red;
+}
+
+.cherry-gallery, .religion-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cherry-gallery img, .religion-gallery img {
+  margin: 15px;
 }
